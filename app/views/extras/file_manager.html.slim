@@ -1,0 +1,548 @@
+.pull-right
+  .dropdown
+    a[href="#" data-toggle="dropdown"]
+      |  <img src="
+      = image_path('angle/user/02.jpg')
+      | " alt="user" class="thumb32 img-circle" /> 
+    ul.dropdown-menu.dropdown-menu-right.animated.fadeInUp[role="menu"]
+      li
+        a[href="#"]
+          span
+            | Settings
+      li
+        a[href="#"]
+          span
+            | Get more Storage
+      li
+        a[href="#"]
+          span
+            | Manage permissions
+h3
+  | File manager
+.row
+  .col-md-3
+    .mb-lg
+      input.form-control.filestyle[type="file" data-input="false" data-buttonname="btn btn-info" data-buttontext="UPLOAD" data-iconname="fa fa-upload mr"]
+    .panel.b
+      .panel-body
+        strong.text-muted
+          | FOLDERS
+      .list-group
+        a.active.list-group-item[href="#"]
+          span.badge
+            | 49
+          span.circle.bg-white.mr
+          span
+            | All
+        a.list-group-item[href="#"]
+          span.badge
+            | 5
+          span.circle.circle-green.mr
+          span
+            | Audio
+        a.list-group-item[href="#"]
+          span.badge
+            | 12
+          span.circle.circle-danger.mr
+          span
+            | Movie
+        a.list-group-item[href="#"]
+          span.badge
+            | 22
+          span.circle.circle-warning.mr
+          span
+            | Image
+        a.list-group-item[href="#"]
+          span.badge
+            | 9
+          span.circle.circle-purple.mr
+          span
+            | Code
+      .panel-body
+        .clearfix.text-sm
+          p.pull-left
+            | Storage
+          p.pull-right
+            strong
+              | 25 GB / 100 GB
+        .progress.progress-xs.m0
+          .progress-bar.progress-bar-info[style="width:25%"]
+            | 25%
+  .col-md-9
+    .row
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="audio"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-audio-o.text-primary
+            p
+              small.text-dark
+                | A good song.ogg
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 6.3MB
+              small.pull-left
+                | 10m ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="movie"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-movie-o.text-danger
+            p
+              small.text-dark
+                | Movie.avi
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 6.3GB
+              small.pull-left
+                | 50m ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="audio"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-audio-o.text-primary
+            p
+              small.text-dark
+                | Similar - Chosen.mp3
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 12MB
+              small.pull-left
+                | 20h ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="image"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-image-o.text-success
+            p
+              small.text-dark
+                | El-Capitan.jpg
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 300KB
+              small.pull-left
+                | 1d ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="archive"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-archive-o.text-warning
+            p
+              small.text-dark
+                | report-2016.txt
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 1MB
+              small.pull-left
+                | 15h ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="audio"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-audio-o.text-primary
+            p
+              small.text-dark
+                | Song for you.ogg
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 4.5MB
+              small.pull-left
+                | 5m ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="code"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-code-o.text-purple
+            p
+              small.text-dark
+                | bypass.c
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 3KB
+              small.pull-left
+                | 2h ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="image"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-image-o.text-success
+            p
+              small.text-dark
+                | Sunset_red.png
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 450KB
+              small.pull-left
+                | 3d ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="image"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-image-o.text-success
+            p
+              small.text-dark
+                | Sunset_red.png
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 450KB
+              small.pull-left
+                | 3d ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="code"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-code-o.text-purple
+            p
+              small.text-dark
+                | angular.controller.js
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 5KB
+              small.pull-left
+                | 23h ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="audio"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-audio-o.text-primary
+            p
+              small.text-dark
+                | Song 4 you.ogg
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 4.5MB
+              small.pull-left
+                | 5m ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="audio"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-audio-o.text-primary
+            p
+              small.text-dark
+                | Similar - Chosen.mp3
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 12MB
+              small.pull-left
+                | 20h ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="audio"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-audio-o.text-primary
+            p
+              small.text-dark
+                | Song 4 you.ogg
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 4.5MB
+              small.pull-left
+                | 5m ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="code"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-code-o.text-purple
+            p
+              small.text-dark
+                | ng.components.css
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 78KB
+              small.pull-left
+                | 12h ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="image"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-image-o.text-success
+            p
+              small.text-dark
+                | Sunset_red.png
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 450KB
+              small.pull-left
+                | 3d ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="archive"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-archive-o.text-warning
+            p
+              small.text-dark
+                | report-2016.txt
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 1MB
+              small.pull-left
+                | 15h ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="audio"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-audio-o.text-primary
+            p
+              small.text-dark
+                | A good song.ogg
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 6.3MB
+              small.pull-left
+                | 10m ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="movie"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-movie-o.text-danger
+            p
+              small.text-dark
+                | Movie.avi
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 6.3GB
+              small.pull-left
+                | 50m ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="audio"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-audio-o.text-primary
+            p
+              small.text-dark
+                | Similar - Chosen.mp3
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 12MB
+              small.pull-left
+                | 20h ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="image"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-image-o.text-success
+            p
+              small.text-dark
+                | El-Capitan.jpg
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 300KB
+              small.pull-left
+                | 1d ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="audio"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-audio-o.text-primary
+            p
+              small.text-dark
+                | Song 4 you.ogg
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 4.5MB
+              small.pull-left
+                | 5m ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="code"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-code-o.text-purple
+            p
+              small.text-dark
+                | ng.components.css
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 78KB
+              small.pull-left
+                | 12h ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="image"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-image-o.text-success
+            p
+              small.text-dark
+                | Sunset_red.png
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 450KB
+              small.pull-left
+                | 3d ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="archive"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-archive-o.text-warning
+            p
+              small.text-dark
+                | report-2016.txt
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 1MB
+              small.pull-left
+                | 15h ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="image"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-image-o.text-success
+            p
+              small.text-dark
+                | Sunset_red.png
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 450KB
+              small.pull-left
+                | 3d ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="code"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-code-o.text-purple
+            p
+              small.text-dark
+                | angular.controller.js
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 5KB
+              small.pull-left
+                | 23h ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="audio"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-audio-o.text-primary
+            p
+              small.text-dark
+                | Song 4 you.ogg
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 4.5MB
+              small.pull-left
+                | 5m ago
+      .col-md-4.col-sm-6
+        .panel.discoverer[data-filter-group="audio"]
+          .panel-body.text-center
+            .clearfix.discover
+              .pull-right
+                a.text-muted.mr-sm[href="#" title="Download"]
+                  em.fa.fa-download.fa-fw
+            a.file-icon.ph-lg[href="#"]
+              em.fa.fa-5x.fa-file-audio-o.text-primary
+            p
+              small.text-dark
+                | Similar - Chosen.mp3
+            .clearfix.m0.text-muted
+              small.pull-right
+                | 12MB
+              small.pull-left
+                | 20h ago

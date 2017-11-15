@@ -1,0 +1,32 @@
+.block-center.mt-xl.wd-xl
+  .panel.panel-dark.panel-flat
+    .panel-heading.text-center
+      a[href="#"]
+        |  <img src="
+        = image_path('angle/logo.png')
+        | " alt="Image" class="block-center img-rounded" /> 
+    .panel-body
+      p.text-center.pv
+        | SIGN IN TO CONTINUE.
+      form.mb-lg[role="form" data-parsley-validate="" novalidate=""]
+        .form-group.has-feedback
+          input#exampleInputEmail1.form-control[type="email" placeholder="Enter email" autocomplete="off" required="required"]
+          span.fa.fa-envelope.form-control-feedback.text-muted
+        .form-group.has-feedback
+          input#exampleInputPassword1.form-control[type="password" placeholder="Password" required="required"]
+          span.fa.fa-lock.form-control-feedback.text-muted
+        .clearfix
+          .checkbox.c-checkbox.pull-left.mt0
+            label
+              input[type="checkbox" value="" name="remember"]
+              span.fa.fa-check
+              | Remember Me
+          .pull-right
+            a.text-muted[href="/pages/recover"]
+              | Forgot your password?
+        button.btn.btn-block.btn-primary.mt-lg[type="submit"]
+          | Login
+      p.pt-lg.text-center
+        | Need to Signup?
+      a.btn.btn-block.btn-default[href="/pages/register"]
+        | Register Now

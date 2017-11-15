@@ -1,0 +1,44 @@
+h3
+  | File Upload
+blockquote.box-placeholder
+  p
+    | File Upload widget with multiple file selection, drag&drop support, progress bars, validation and preview images, audio and video for jQuery. 
+    br
+    | Supports cross-domain, chunked and resumable file uploads and client-side image resizing. 
+    br
+    | Works with any server-side platform (PHP, Python, Ruby on Rails, Java, Node.js, Go etc.) that supports standard HTML form file uploads.
+br
+form#fileupload[action="//jquery-file-upload.appspot.com/" method="POST" enctype="multipart/form-data"]
+  noscript
+    input[type="hidden" name="redirect" value="https://blueimp.github.io/jQuery-File-Upload/"]
+  .row.fileupload-buttonbar
+    .col-lg-7
+      span.btn.btn-success.fileinput-button
+        i.fa.fa-fw.fa-plus
+        span
+          | Add files...
+        input[type="file" name="files[]" multiple=""]
+      button.btn.btn-primary.start[type="submit"]
+        i.fa.fa-fw.fa-upload
+        span
+          | Start upload
+      button.btn.btn-warning.cancel[type="reset"]
+        i.fa.fa-fw.fa-times
+        span
+          | Cancel upload
+      button.btn.btn-danger.delete[type="button"]
+        i.fa.fa-fw.fa-trash
+        span
+          | Delete
+      span.fileupload-process
+    .col-lg-5.fileupload-progress.fade
+      .progress.progress-striped.active[role="progressbar" aria-valuemin="0" aria-valuemax="100"]
+        .progress-bar.progress-bar-success[style="width:0%;"]
+      .progress-extended
+        |  
+  table.table.table-striped[role="presentation"]
+    tbody.files
+script#template-upload[type="text/x-tmpl"]
+  |  {% for (var i=0, file; file=o.files[i]; i++) { %} <tr class="template-upload fade"> <td> <span class="preview"></span> </td> <td> <p class="name">{%=file.name%}</p> <strong class="error text-danger"></strong> </td> <td> <p class="size">Processing...</p> <div class="progress progress-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="progress-bar progress-bar-success" style="width:0%;"></div></div> </td> <td> {% if (!i && !o.options.autoUpload) { %} <button class="btn btn-primary start" disabled> <em class="fa fa-fw fa-upload"></em> <span>Start</span> </button> {% } %} {% if (!i) { %} <button class="btn btn-warning cancel"> <em class="fa fa-fw fa-times"></em> <span>Cancel</span> </button> {% } %} </td> </tr> {% } %} 
+script#template-download[type="text/x-tmpl"]
+  |  {% for (var i=0, file; file=o.files[i]; i++) { %} <tr class="template-download fade"> <td> <span class="preview"> {% if (file.thumbnailUrl) { %} <a href="{%=file.url%}" title="{%=file.name%}" download="{%=file.name%}" data-gallery><img src="{%=file.thumbnailUrl%}"></a> {% } %} </span> </td> <td> <p class="name"> {% if (file.url) { %} <a href="{%=file.url%}" title="{%=file.name%}" download="{%=file.name%}" {%=file.thumbnailUrl?'data-gallery':''%}>{%=file.name%}</a> {% } else { %} <span>{%=file.name%}</span> {% } %} </p> {% if (file.error) { %} <div><span class="label label-danger">Error</span> {%=file.error%}</div> {% } %} </td> <td> <span class="size">{%=o.formatFileSize(file.size)%}</span> </td> <td> {% if (file.deleteUrl) { %} <button class="btn btn-danger delete" data-type="{%=file.deleteType%}" data-url="{%=file.deleteUrl%}"{% if (file.deleteWithCredentials) { %} data-xhr-fields='{"withCredentials":true}'{% } %}> <em class="fa fa-fw fa-trash"></em> <span>Delete</span> </button> {% } else { %} <button class="btn btn-warning cancel"> <em class="fa fa-fw fa-times"></em> <span>Cancel</span> </button> {% } %} </td> </tr> {% } %} 

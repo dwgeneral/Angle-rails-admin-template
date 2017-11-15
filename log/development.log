@@ -1,0 +1,2591 @@
+Started GET "/" for ::1 at 2017-10-30 16:55:19 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 16:55:19 +0800
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (176.9ms)
+Completed 500 Internal Server Error in 348ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery/dist/jquery' with type 'application/javascript'
+Checked in these paths: 
+  /Users/guoweidong/Documents/codeGarden/Bootstrap-Template-admin_angle/backend-rails/Angle/app/assets/api
+  /Users/guoweidong/Documents/codeGarden/Bootstrap-Template-admin_angle/backend-rails/Angle/app/assets/config
+  /Users/guoweidong/Documents/codeGarden/Bootstrap-Template-admin_angle/backend-rails/Angle/app/assets/documentation
+  /Users/guoweidong/Documents/codeGarden/Bootstrap-Template-admin_angle/backend-rails/Angle/app/assets/i18n
+  /Users/guoweidong/Documents/codeGarden/Bootstrap-Template-admin_angle/backend-rails/Angle/app/assets/images
+  /Users/guoweidong/Documents/codeGarden/Bootstrap-Template-admin_angle/backend-rails/Angle/app/assets/javascripts
+  /Users/guoweidong/Documents/codeGarden/Bootstrap-Template-admin_angle/backend-rails/Angle/app/assets/stylesheets
+  /Users/guoweidong/Documents/codeGarden/Bootstrap-Template-admin_angle/backend-rails/Angle/vendor/assets/images
+  /Users/guoweidong/Documents/codeGarden/Bootstrap-Template-admin_angle/backend-rails/Angle/vendor/assets/javascripts
+  /Users/guoweidong/Documents/codeGarden/Bootstrap-Template-admin_angle/backend-rails/Angle/vendor/assets/stylesheets
+  /Users/guoweidong/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/guoweidong/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actioncable-5.1.0/lib/assets/compiled
+  /Users/guoweidong/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionview-5.1.0/lib/assets/compiled
+  /Users/guoweidong/Documents/codeGarden/Bootstrap-Template-admin_angle/backend-rails/Angle/vendor/assets/node_modules
+  /Users/guoweidong/Documents/codeGarden/Bootstrap-Template-admin_angle/backend-rails/Angle/lib/assets/bower_components
+  /Users/guoweidong/Documents/codeGarden/Bootstrap-Template-admin_angle/backend-rails/Angle/vendor/assets/bower_components
+  /Users/guoweidong/Documents/codeGarden/Bootstrap-Template-admin_angle/backend-rails/Angle/node_modules):
+    203:                   <a href="#" class="list-group-item">
+    204:                      <div class="media-box">
+    205:                         <div class="pull-left">
+    206:                            <img src=<%= image_path("angle/user/02.jpg") %> alt="Image" class="media-box-object img-circle thumb32" />
+    207:                         </div>
+    208:                         <div class="media-box-body clearfix">
+    209:                            <small class="pull-right">2h</small>
+  
+app/assets/javascripts/base.js:7
+app/views/dashboard/dashboard_v1.html.erb:206:in `_app_views_dashboard_dashboard_v__html_erb__4498494498557653254_70292252383860'
+Started GET "/" for ::1 at 2017-10-30 17:42:16 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 17:42:16 +0800
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (19758.1ms)
+  Rendered layouts/partials/_topnavbar.html.erb (7.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (52.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 21219ms (Views: 21015.2ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-10-30 17:42:37 +0800
+Started GET "/" for ::1 at 2017-10-30 17:42:38 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 17:42:38 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (25.2ms)
+  Rendered layouts/partials/_topnavbar.html.erb (11.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (13.9ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (20.5ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 1282ms (Views: 1257.9ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-10-30 17:42:39 +0800
+Started GET "/" for ::1 at 2017-10-30 17:42:39 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 17:42:39 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (14.1ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (3.5ms) [cache miss]
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-10-30 17:42:39 +0800
+  Rendered layouts/partials/_offsidebar.html.erb (31.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 549ms (Views: 531.1ms)
+
+
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.6ms)
+Completed 200 OK in 19ms (Views: 19.2ms)
+
+
+Started GET "/dashboard/dashboard_v2" for ::1 at 2017-10-30 18:03:14 +0800
+Processing by DashboardController#dashboard_v2 as HTML
+  Rendering dashboard/dashboard_v2.html.erb within layouts/application
+  Rendered dashboard/dashboard_v2.html.erb within layouts/application (27.4ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.9ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (20.5ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 335ms (Views: 330.3ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-10-30 18:03:15 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-10-30 18:03:15 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.6ms)
+Completed 200 OK in 11ms (Views: 10.7ms)
+
+
+Started GET "/" for ::1 at 2017-10-30 18:03:15 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:03:16 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (33.2ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (41.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 916ms (Views: 869.7ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:03:17 +0800
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (7.9ms)
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-10-30 18:03:17 +0800
+Started GET "/" for ::1 at 2017-10-30 18:03:17 +0800
+  Rendered layouts/partials/_topnavbar.html.erb (3.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.7ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (14.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 328ms (Views: 325.2ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:03:17 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (10.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.8ms) [cache miss]
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-10-30 18:03:17 +0800
+  Rendered layouts/partials/_sidebar.html.erb (5.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (12.5ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-10-30 18:03:17 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.7ms)
+Completed 200 OK in 14ms (Views: 13.4ms)
+
+
+Started GET "/" for ::1 at 2017-10-30 18:03:17 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:03:18 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (21.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (9.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (50.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 1068ms (Views: 1033.0ms)
+
+
+Completed 200 OK in 688ms (Views: 640.5ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-10-30 18:03:18 +0800
+Started GET "/" for ::1 at 2017-10-30 18:03:18 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:03:18 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (4.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (3.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (14.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 342ms (Views: 321.0ms)
+
+
+Started GET "/dashboard/dashboard_v2" for ::1 at 2017-10-30 18:03:20 +0800
+Processing by DashboardController#dashboard_v2 as HTML
+  Rendering dashboard/dashboard_v2.html.erb within layouts/application
+  Rendered dashboard/dashboard_v2.html.erb within layouts/application (8.2ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (3.8ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (15.0ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 209ms (Views: 207.0ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-10-30 18:03:20 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-10-30 18:03:21 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 12ms (Views: 11.7ms)
+
+
+Started GET "/" for ::1 at 2017-10-30 18:03:21 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:03:21 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (10.2ms)
+  Rendered layouts/partials/_topnavbar.html.erb (6.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (15.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (74.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.2ms) [cache miss]
+Completed 200 OK in 755ms (Views: 714.9ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-10-30 18:03:21 +0800
+Started GET "/" for ::1 at 2017-10-30 18:03:22 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:03:22 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (7.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (12.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 333ms (Views: 294.6ms)
+
+
+Started GET "/dashboard/dashboard_v3" for ::1 at 2017-10-30 18:03:24 +0800
+Processing by DashboardController#dashboard_v3 as HTML
+  Rendering dashboard/dashboard_v3.html.erb within layouts/application
+  Rendered dashboard/dashboard_v3.html.erb within layouts/application (8.5ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (16.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 219ms (Views: 216.7ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-10-30 18:03:24 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-10-30 18:03:24 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.6ms)
+Completed 200 OK in 15ms (Views: 14.3ms)
+
+
+Started GET "/" for ::1 at 2017-10-30 18:03:24 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:03:24 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (17.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (5.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (10.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (29.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 759ms (Views: 729.6ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-10-30 18:03:25 +0800
+Started GET "/" for ::1 at 2017-10-30 18:03:25 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:03:25 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (4.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.2ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (9.8ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (27.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (2.8ms) [cache miss]
+Completed 200 OK in 539ms (Views: 515.8ms)
+
+
+Started GET "/elements/button" for ::1 at 2017-10-30 18:05:36 +0800
+Processing by ElementsController#button as HTML
+  Rendering elements/button.html.erb within layouts/application
+  Rendered elements/button.html.erb within layouts/application (1.2ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (25.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 456ms (Views: 453.0ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-10-30 18:05:37 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-10-30 18:05:37 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 8ms (Views: 7.9ms)
+
+
+Started GET "/" for ::1 at 2017-10-30 18:05:37 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:05:37 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (12.8ms)
+  Rendered layouts/partials/_topnavbar.html.erb (12.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (8.8ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (21.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 850ms (Views: 818.2ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-10-30 18:05:38 +0800
+Started GET "/" for ::1 at 2017-10-30 18:05:38 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:05:38 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (7.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.2ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (12.0ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 367ms (Views: 347.8ms)
+
+
+Started GET "/elements/carousel" for ::1 at 2017-10-30 18:05:39 +0800
+Processing by ElementsController#carousel as HTML
+  Rendering elements/carousel.html.erb within layouts/application
+  Rendered elements/carousel.html.erb within layouts/application (0.5ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.7ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.1ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (14.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 201ms (Views: 197.8ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-10-30 18:05:39 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-10-30 18:05:39 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 7ms (Views: 7.2ms)
+
+
+Started GET "/" for ::1 at 2017-10-30 18:05:40 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:05:40 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (12.1ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.2ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (6.1ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (18.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 581ms (Views: 548.3ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-10-30 18:05:40 +0800
+Started GET "/" for ::1 at 2017-10-30 18:05:40 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:05:40 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (14.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (20.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.6ms) [cache miss]
+Completed 200 OK in 438ms (Views: 409.8ms)
+
+
+Started GET "/elements/fonticons" for ::1 at 2017-10-30 18:05:47 +0800
+Processing by ElementsController#fonticons as HTML
+  Rendering elements/fonticons.html.erb within layouts/application
+  Rendered elements/fonticons.html.erb within layouts/application (4.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.1ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (27.0ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 279ms (Views: 273.4ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-10-30 18:05:48 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-10-30 18:05:49 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 12ms (Views: 11.4ms)
+
+
+Started GET "/" for ::1 at 2017-10-30 18:05:49 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:05:49 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (7.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.7ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (27.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (47.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 678ms (Views: 648.0ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-10-30 18:05:49 +0800
+Started GET "/" for ::1 at 2017-10-30 18:05:49 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:05:50 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (9.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.1ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (35.9ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 730ms (Views: 700.9ms)
+
+
+Started GET "/pages/lock" for ::1 at 2017-10-30 18:08:06 +0800
+Processing by PagesController#lock as HTML
+  Rendering pages/lock.html.erb within layouts/pages
+  Rendered pages/lock.html.erb within layouts/pages (1.5ms)
+Completed 200 OK in 201ms (Views: 198.5ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-10-30 18:08:06 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-10-30 18:08:06 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.9ms)
+Completed 200 OK in 12ms (Views: 11.1ms)
+
+
+Started GET "/" for ::1 at 2017-10-30 18:08:07 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:08:07 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (8.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (14.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.6ms) [cache miss]
+Completed 200 OK in 405ms (Views: 387.7ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-10-30 18:08:07 +0800
+Started GET "/" for ::1 at 2017-10-30 18:08:07 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:08:07 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (8.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.6ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (19.5ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 429ms (Views: 413.7ms)
+
+
+Started GET "/pages/lock" for ::1 at 2017-10-30 18:08:10 +0800
+Processing by PagesController#lock as HTML
+  Rendering pages/lock.html.erb within layouts/pages
+  Rendered pages/lock.html.erb within layouts/pages (3.0ms)
+Completed 200 OK in 177ms (Views: 175.0ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-10-30 18:08:11 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-10-30 18:08:11 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.9ms)
+Completed 200 OK in 19ms (Views: 18.8ms)
+
+
+Started GET "/" for ::1 at 2017-10-30 18:08:11 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:08:11 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (5.2ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (13.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 388ms (Views: 369.2ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-10-30 18:08:11 +0800
+Started GET "/" for ::1 at 2017-10-30 18:08:11 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:08:11 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (6.4ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.1ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (10.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 390ms (Views: 371.8ms)
+
+
+Started GET "/dashboard" for ::1 at 2017-10-30 18:08:16 +0800
+Started GET "/" for ::1 at 2017-10-30 18:08:16 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:08:16 +0800
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (6.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (19.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 300ms (Views: 297.9ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-10-30 18:08:16 +0800
+Started GET "/" for ::1 at 2017-10-30 18:08:16 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-10-30 18:08:16 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 13ms (Views: 12.6ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:08:17 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (10.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (7.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (11.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (43.9ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (3.9ms) [cache miss]
+Completed 200 OK in 878ms (Views: 852.6ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-10-30 18:08:17 +0800
+Started GET "/" for ::1 at 2017-10-30 18:08:18 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:08:18 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (8.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (15.5ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 416ms (Views: 380.3ms)
+
+
+Started GET "/dashboard/dashboard_v3" for ::1 at 2017-10-30 18:08:31 +0800
+Processing by DashboardController#dashboard_v3 as HTML
+  Rendering dashboard/dashboard_v3.html.erb within layouts/application
+  Rendered dashboard/dashboard_v3.html.erb within layouts/application (7.1ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.7ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (8.8ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (17.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 284ms (Views: 279.4ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-10-30 18:08:32 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-10-30 18:08:32 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.7ms)
+Completed 200 OK in 12ms (Views: 12.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-30 18:08:32 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:08:32 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (11.5ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (6.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (41.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (2.1ms) [cache miss]
+Completed 200 OK in 874ms (Views: 839.0ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-10-30 18:08:33 +0800
+Started GET "/" for ::1 at 2017-10-30 18:08:33 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:08:33 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (8.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.2ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.9ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (17.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.5ms) [cache miss]
+Completed 200 OK in 415ms (Views: 397.2ms)
+
+
+Started GET "/dashboard/dashboard_v2" for ::1 at 2017-10-30 18:08:34 +0800
+Processing by DashboardController#dashboard_v2 as HTML
+  Rendering dashboard/dashboard_v2.html.erb within layouts/application
+  Rendered dashboard/dashboard_v2.html.erb within layouts/application (9.9ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.7ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.8ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (22.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 304ms (Views: 300.2ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-10-30 18:08:34 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-10-30 18:08:35 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 10ms (Views: 9.5ms)
+
+
+Started GET "/" for ::1 at 2017-10-30 18:08:35 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:08:35 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (25.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (10.6ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (32.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 784ms (Views: 749.3ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-10-30 18:08:36 +0800
+Started GET "/" for ::1 at 2017-10-30 18:08:36 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:08:36 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (9.8ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (16.5ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 342ms (Views: 317.0ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:08:37 +0800
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (8.8ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (3.8ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (14.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 230ms (Views: 226.8ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-10-30 18:08:38 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-10-30 18:08:38 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (3.1ms)
+Completed 200 OK in 21ms (Views: 19.8ms)
+
+
+Started GET "/" for ::1 at 2017-10-30 18:08:38 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:08:38 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (10.5ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.1ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (10.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (47.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 768ms (Views: 735.3ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-10-30 18:08:39 +0800
+Started GET "/" for ::1 at 2017-10-30 18:08:39 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-30 18:08:39 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (5.8ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (21.9ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 385ms (Views: 351.6ms)
+
+
+Started GET "/dashboard/dashboard_v2" for ::1 at 2017-10-31 09:20:37 +0800
+Processing by DashboardController#dashboard_v2 as HTML
+  Rendering dashboard/dashboard_v2.html.erb within layouts/application
+  Rendered dashboard/dashboard_v2.html.erb within layouts/application (44.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (5.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (13.7ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (60.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 727ms (Views: 720.8ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-10-31 09:20:38 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-10-31 09:20:38 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.7ms)
+Completed 200 OK in 11ms (Views: 10.3ms)
+
+
+Started GET "/" for ::1 at 2017-10-31 09:20:38 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-31 09:20:38 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (14.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (15.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (52.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (2.4ms) [cache miss]
+Started GET "/dashboard/dashboard_v3" for ::1 at 2017-10-31 09:20:39 +0800
+Processing by DashboardController#dashboard_v3 as HTML
+  Rendering dashboard/dashboard_v3.html.erb within layouts/application
+  Rendered dashboard/dashboard_v3.html.erb within layouts/application (32.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (7.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (47.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 593ms (Views: 573.1ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-10-31 09:20:40 +0800
+Completed 200 OK in 1352ms (Views: 1306.7ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-10-31 09:20:40 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-10-31 09:20:40 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.7ms)
+Completed 200 OK in 8ms (Views: 8.0ms)
+
+
+Started GET "/" for ::1 at 2017-10-31 09:20:40 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-31 09:20:40 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (13.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (15.9ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (61.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.5ms) [cache miss]
+Completed 200 OK in 1037ms (Views: 1010.3ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-10-31 09:20:41 +0800
+Started GET "/" for ::1 at 2017-10-31 09:20:41 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-31 09:20:41 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (6.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.6ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (17.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 392ms (Views: 372.0ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-31 09:20:44 +0800
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (6.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.7ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (14.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 289ms (Views: 286.9ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-10-31 09:20:45 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-10-31 09:20:45 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.6ms)
+Completed 200 OK in 9ms (Views: 8.2ms)
+
+
+Started GET "/" for ::1 at 2017-10-31 09:20:45 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-31 09:20:45 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (13.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (7.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (119.6ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (40.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (2.2ms) [cache miss]
+Completed 200 OK in 923ms (Views: 892.6ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-10-31 09:20:46 +0800
+Started GET "/" for ::1 at 2017-10-31 09:20:46 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-10-31 09:20:46 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (4.9ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.1ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (11.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 312ms (Views: 296.4ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 10:25:07 +0800
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (204.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (10.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (15.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (55.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (2.5ms) [cache miss]
+Completed 200 OK in 1098ms (Views: 1081.5ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-01 10:25:09 +0800
+Started GET "/" for ::1 at 2017-11-01 10:25:10 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-01 10:25:10 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.7ms)
+Completed 200 OK in 11ms (Views: 10.2ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 10:25:10 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (7.1ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (11.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (16.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.3ms) [cache miss]
+Completed 200 OK in 458ms (Views: 440.8ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-01 10:25:10 +0800
+Started GET "/" for ::1 at 2017-11-01 10:25:10 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 10:25:10 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (7.4ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (9.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (13.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 414ms (Views: 398.8ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 14:58:21 +0800
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (33.9ms)
+  Rendered layouts/partials/_topnavbar.html.erb (6.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (15.6ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (45.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 641ms (Views: 635.0ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-01 14:58:22 +0800
+Started GET "/" for ::1 at 2017-11-01 14:58:23 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 14:58:23 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (69.0ms)
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-01 14:58:24 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.7ms)
+Completed 200 OK in 20ms (Views: 19.4ms)
+
+
+  Rendered layouts/partials/_topnavbar.html.erb (23.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (10.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (33.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.3ms) [cache miss]
+Completed 200 OK in 1479ms (Views: 1425.3ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-01 14:58:24 +0800
+Started GET "/" for ::1 at 2017-11-01 14:58:24 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 14:58:24 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (8.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (6.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (17.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.1ms) [cache miss]
+Completed 200 OK in 460ms (Views: 441.3ms)
+
+
+Started GET "/dashboard/dashboard_v2" for ::1 at 2017-11-01 14:58:26 +0800
+Processing by DashboardController#dashboard_v2 as HTML
+  Rendering dashboard/dashboard_v2.html.erb within layouts/application
+  Rendered dashboard/dashboard_v2.html.erb within layouts/application (11.8ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (6.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (23.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.3ms) [cache miss]
+Completed 200 OK in 323ms (Views: 320.3ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-01 14:58:26 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-01 14:58:26 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 8ms (Views: 7.3ms)
+
+
+Started GET "/" for ::1 at 2017-11-01 14:58:27 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 14:58:27 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (17.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (19.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (14.9ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (41.0ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.4ms) [cache miss]
+Completed 200 OK in 952ms (Views: 921.2ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-01 14:58:28 +0800
+Started GET "/" for ::1 at 2017-11-01 14:58:28 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 14:58:28 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (8.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (6.1ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (15.5ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 380ms (Views: 365.6ms)
+
+
+Started GET "/dashboard/dashboard_v3" for ::1 at 2017-11-01 14:58:29 +0800
+Processing by DashboardController#dashboard_v3 as HTML
+  Rendering dashboard/dashboard_v3.html.erb within layouts/application
+  Rendered dashboard/dashboard_v3.html.erb within layouts/application (6.1ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (8.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (13.5ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 311ms (Views: 308.0ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-01 14:58:30 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-01 14:58:30 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.6ms)
+Completed 200 OK in 8ms (Views: 7.7ms)
+
+
+Started GET "/" for ::1 at 2017-11-01 14:58:30 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 14:58:30 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (22.4ms)
+  Rendered layouts/partials/_topnavbar.html.erb (6.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (14.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (56.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 955ms (Views: 909.0ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-01 14:58:31 +0800
+Started GET "/" for ::1 at 2017-11-01 14:58:31 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 14:58:31 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (4.9ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (15.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 391ms (Views: 373.3ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 14:58:36 +0800
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (4.8ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.2ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.8ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (11.9ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 264ms (Views: 261.5ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-01 14:58:36 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-01 14:58:37 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 8ms (Views: 7.5ms)
+
+
+Started GET "/" for ::1 at 2017-11-01 14:58:37 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 14:58:37 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (16.8ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (14.8ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (52.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (3.1ms) [cache miss]
+Completed 200 OK in 866ms (Views: 837.7ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-01 14:58:38 +0800
+Started GET "/" for ::1 at 2017-11-01 14:58:38 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 14:58:38 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (4.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.1ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (11.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 361ms (Views: 339.3ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 14:59:22 +0800
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (10.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (12.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 291ms (Views: 288.9ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-01 14:59:23 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-01 14:59:23 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 8ms (Views: 7.5ms)
+
+
+Started GET "/" for ::1 at 2017-11-01 14:59:23 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 14:59:23 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (25.9ms)
+  Rendered layouts/partials/_topnavbar.html.erb (12.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (19.8ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (76.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 842ms (Views: 810.2ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-01 14:59:24 +0800
+Started GET "/" for ::1 at 2017-11-01 14:59:24 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 14:59:24 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (5.5ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (10.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (21.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 521ms (Views: 500.9ms)
+
+
+Started GET "/" for ::1 at 2017-11-01 14:59:26 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 14:59:26 +0800
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (4.8ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.9ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (12.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 262ms (Views: 260.2ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-01 14:59:27 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-01 14:59:27 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 8ms (Views: 7.6ms)
+
+
+Started GET "/" for ::1 at 2017-11-01 14:59:27 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 14:59:27 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (27.2ms)
+  Rendered layouts/partials/_topnavbar.html.erb (5.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (8.7ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (26.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.8ms) [cache miss]
+Completed 200 OK in 797ms (Views: 765.7ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-01 14:59:28 +0800
+Started GET "/" for ::1 at 2017-11-01 14:59:28 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 14:59:28 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (4.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (3.9ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (14.0ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 412ms (Views: 385.4ms)
+
+
+Started GET "/dashboard/dashboard_v2" for ::1 at 2017-11-01 15:13:24 +0800
+Processing by DashboardController#dashboard_v2 as HTML
+  Rendering dashboard/dashboard_v2.html.erb within layouts/application
+  Rendered dashboard/dashboard_v2.html.erb within layouts/application (8.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (17.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 325ms (Views: 322.7ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-01 15:13:24 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-01 15:13:25 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 9ms (Views: 8.6ms)
+
+
+Started GET "/" for ::1 at 2017-11-01 15:13:25 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 15:13:25 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (11.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (19.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (12.1ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (58.9ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 965ms (Views: 917.3ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-01 15:13:26 +0800
+Started GET "/" for ::1 at 2017-11-01 15:13:26 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 15:13:26 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (5.8ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.1ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (12.9ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 422ms (Views: 403.7ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 15:13:27 +0800
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (6.9ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.6ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (12.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 256ms (Views: 254.5ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-01 15:13:27 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-01 15:13:27 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 7ms (Views: 7.1ms)
+
+
+Started GET "/" for ::1 at 2017-11-01 15:13:27 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 15:13:27 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (13.9ms)
+  Rendered layouts/partials/_topnavbar.html.erb (6.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (23.9ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (46.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 797ms (Views: 740.1ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-01 15:13:28 +0800
+Started GET "/" for ::1 at 2017-11-01 15:13:28 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 15:13:28 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (7.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (13.0ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 322ms (Views: 294.4ms)
+
+
+Started GET "/dashboard/dashboard_v2" for ::1 at 2017-11-01 15:20:31 +0800
+Processing by DashboardController#dashboard_v2 as HTML
+  Rendering dashboard/dashboard_v2.html.erb within layouts/application
+  Rendered dashboard/dashboard_v2.html.erb within layouts/application (8.5ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (20.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 348ms (Views: 345.9ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-01 15:20:32 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-01 15:20:32 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 8ms (Views: 7.9ms)
+
+
+Started GET "/" for ::1 at 2017-11-01 15:20:32 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 15:20:32 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (21.8ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (17.1ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (111.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 974ms (Views: 929.4ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-01 15:20:33 +0800
+Started GET "/" for ::1 at 2017-11-01 15:20:33 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 15:20:33 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (6.1ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.1ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (14.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 406ms (Views: 389.0ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 15:20:34 +0800
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (15.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.2ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (15.0ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 376ms (Views: 373.2ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-01 15:20:34 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-01 15:20:34 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 8ms (Views: 7.3ms)
+
+
+Started GET "/" for ::1 at 2017-11-01 15:20:34 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 15:20:35 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (20.2ms)
+  Rendered layouts/partials/_topnavbar.html.erb (6.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (8.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (31.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (2.2ms) [cache miss]
+Completed 200 OK in 765ms (Views: 717.5ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-01 15:20:35 +0800
+Started GET "/" for ::1 at 2017-11-01 15:20:35 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 15:20:35 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (5.1ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (12.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 317ms (Views: 294.0ms)
+
+
+Started GET "/" for ::1 at 2017-11-01 21:25:16 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 21:25:16 +0800
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (4869.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (29.0ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 5632ms (Views: 5453.5ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-01 21:25:23 +0800
+Started GET "/" for ::1 at 2017-11-01 21:25:23 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-01 21:25:24 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 14ms (Views: 14.2ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 21:25:24 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (14.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (7.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (6.9ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (26.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 822ms (Views: 788.6ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-01 21:25:25 +0800
+Started GET "/" for ::1 at 2017-11-01 21:25:25 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 21:25:25 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (8.5ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (9.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (22.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 477ms (Views: 448.9ms)
+
+
+Started GET "/dashboard/dashboard_v2" for ::1 at 2017-11-01 21:42:31 +0800
+Processing by DashboardController#dashboard_v2 as HTML
+  Rendering dashboard/dashboard_v2.html.erb within layouts/application
+  Rendered dashboard/dashboard_v2.html.erb within layouts/application (35.9ms)
+  Rendered layouts/partials/_topnavbar.html.erb (5.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (35.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.2ms) [cache miss]
+Completed 200 OK in 540ms (Views: 530.4ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-01 21:42:32 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-01 21:42:33 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 18ms (Views: 17.2ms)
+
+
+Started GET "/" for ::1 at 2017-11-01 21:42:33 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 21:42:33 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (29.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (17.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (184.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (86.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 1236ms (Views: 1198.9ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-01 21:42:35 +0800
+Started GET "/" for ::1 at 2017-11-01 21:42:35 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-01 21:42:35 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (6.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (12.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (20.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 627ms (Views: 591.6ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 14:23:57 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 14:23:57 +0800
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (3670.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (6.7ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (22.9ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (3.3ms) [cache miss]
+Completed 200 OK in 4460ms (Views: 4199.6ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 14:24:02 +0800
+Started GET "/" for ::1 at 2017-11-13 14:24:02 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 14:24:02 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (8.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.1ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (18.6ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (136.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 1402ms (Views: 1377.4ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 14:24:04 +0800
+Started GET "/" for ::1 at 2017-11-13 14:24:04 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 14:24:04 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.4ms)
+Completed 200 OK in 15ms (Views: 15.0ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 14:24:04 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (9.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (8.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (25.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 798ms (Views: 766.9ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:35:55 +0800
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (3300.8ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (3.9ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (23.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.4ms) [cache miss]
+Completed 200 OK in 3932ms (Views: 3736.8ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 15:35:59 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 15:36:00 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.6ms)
+Completed 200 OK in 14ms (Views: 13.6ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 15:36:00 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:36:00 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (28.5ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (9.9ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (25.9ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 841ms (Views: 805.6ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 15:36:01 +0800
+Started GET "/" for ::1 at 2017-11-13 15:36:01 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:36:01 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (13.5ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.1ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (20.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 382ms (Views: 359.3ms)
+
+
+Started GET "/elements/notification" for ::1 at 2017-11-13 15:36:05 +0800
+Processing by ElementsController#notification as HTML
+  Rendering elements/notification.html.erb within layouts/application
+  Rendered elements/notification.html.erb within layouts/application (2.5ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (6.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (22.5ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 339ms (Views: 335.9ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 15:36:06 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 15:36:06 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 14ms (Views: 13.3ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 15:36:06 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:36:06 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (10.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (5.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (10.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (45.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 1093ms (Views: 1064.0ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 15:36:07 +0800
+Started GET "/" for ::1 at 2017-11-13 15:36:07 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:36:07 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (22.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (6.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (8.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (39.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 735ms (Views: 685.5ms)
+
+
+Started GET "/elements/sweetalert" for ::1 at 2017-11-13 15:36:12 +0800
+Processing by ElementsController#sweetalert as HTML
+  Rendering elements/sweetalert.html.erb within layouts/application
+  Rendered elements/sweetalert.html.erb within layouts/application (0.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (11.7ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (43.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.7ms) [cache miss]
+Completed 200 OK in 491ms (Views: 486.8ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 15:36:13 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 15:36:13 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.6ms)
+Completed 200 OK in 14ms (Views: 13.6ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 15:36:13 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:36:13 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (18.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (67.2ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (36.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 1054ms (Views: 1021.8ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 15:36:14 +0800
+Started GET "/" for ::1 at 2017-11-13 15:36:14 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:36:14 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (13.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.7ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (9.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (33.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 635ms (Views: 596.0ms)
+
+
+Started GET "/elements/button" for ::1 at 2017-11-13 15:36:28 +0800
+Processing by ElementsController#button as HTML
+  Rendering elements/button.html.erb within layouts/application
+  Rendered elements/button.html.erb within layouts/application (1.5ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (11.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (47.5ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 369ms (Views: 365.0ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 15:36:28 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 15:36:29 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.6ms)
+Completed 200 OK in 11ms (Views: 11.0ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 15:36:29 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:36:29 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (19.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (18.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (35.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 1045ms (Views: 1007.2ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 15:36:30 +0800
+Started GET "/" for ::1 at 2017-11-13 15:36:30 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:36:30 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (6.1ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (16.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (23.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 524ms (Views: 486.9ms)
+
+
+Started GET "/widgets" for ::1 at 2017-11-13 15:36:50 +0800
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (30.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.2ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (23.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.5ms) [cache miss]
+Completed 200 OK in 344ms (Views: 339.7ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 15:36:51 +0800
+Started GET "/" for ::1 at 2017-11-13 15:36:51 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:36:51 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (13.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (19.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 763ms (Views: 738.1ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 15:36:52 +0800
+Started GET "/" for ::1 at 2017-11-13 15:36:52 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:36:52 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (11.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.2ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (8.6ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (32.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 572ms (Views: 540.9ms)
+
+
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 15:36:53 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.7ms)
+Completed 200 OK in 12ms (Views: 11.7ms)
+
+
+Started GET "/pages/lock" for ::1 at 2017-11-13 15:37:18 +0800
+Processing by PagesController#lock as HTML
+  Rendering pages/lock.html.erb within layouts/pages
+  Rendered pages/lock.html.erb within layouts/pages (1.9ms)
+Completed 200 OK in 225ms (Views: 222.5ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 15:37:18 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 15:37:18 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.2ms)
+Completed 200 OK in 17ms (Views: 16.8ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 15:37:18 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:37:18 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (11.8ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.7ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (27.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 477ms (Views: 454.8ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 15:37:19 +0800
+Started GET "/" for ::1 at 2017-11-13 15:37:19 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:37:19 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (4.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.1ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (29.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 472ms (Views: 454.0ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:38:58 +0800
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (12.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (34.9ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.0ms) [cache miss]
+Completed 200 OK in 405ms (Views: 402.9ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 15:38:59 +0800
+Started GET "/" for ::1 at 2017-11-13 15:38:59 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 15:38:59 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.6ms)
+Completed 200 OK in 18ms (Views: 17.4ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:38:59 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (13.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (26.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (44.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.4ms) [cache miss]
+Completed 200 OK in 909ms (Views: 877.6ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 15:39:00 +0800
+Started GET "/" for ::1 at 2017-11-13 15:39:00 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:39:00 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (24.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (34.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.8ms) [cache miss]
+Completed 200 OK in 538ms (Views: 503.0ms)
+
+
+Started GET "/dashboard/dashboard_v2" for ::1 at 2017-11-13 15:39:01 +0800
+Processing by DashboardController#dashboard_v2 as HTML
+  Rendering dashboard/dashboard_v2.html.erb within layouts/application
+  Rendered dashboard/dashboard_v2.html.erb within layouts/application (70.2ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (8.8ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (34.5ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 519ms (Views: 514.2ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 15:39:02 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 15:39:02 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.7ms)
+Completed 200 OK in 9ms (Views: 8.6ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 15:39:02 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:39:02 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (31.2ms)
+  Rendered layouts/partials/_topnavbar.html.erb (7.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (48.8ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (53.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 1040ms (Views: 978.8ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 15:39:03 +0800
+Started GET "/" for ::1 at 2017-11-13 15:39:03 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:39:03 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (9.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.8ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (32.5ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Started GET "/dashboard/dashboard_v3" for ::1 at 2017-11-13 15:39:04 +0800
+Processing by DashboardController#dashboard_v3 as HTML
+  Rendering dashboard/dashboard_v3.html.erb within layouts/application
+Completed 200 OK in 577ms (Views: 539.4ms)
+
+
+  Rendered dashboard/dashboard_v3.html.erb within layouts/application (22.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (11.8ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (43.5ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 476ms (Views: 468.8ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 15:39:05 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 15:39:05 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.8ms)
+Completed 200 OK in 12ms (Views: 11.2ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 15:39:05 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:39:05 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (44.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (6.1ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (13.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (40.0ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.2ms) [cache miss]
+Completed 200 OK in 911ms (Views: 856.2ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 15:39:06 +0800
+Started GET "/" for ::1 at 2017-11-13 15:39:06 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:39:06 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (8.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (24.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.6ms) [cache miss]
+Completed 200 OK in 403ms (Views: 378.6ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:39:13 +0800
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (18.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (10.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (38.9ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 506ms (Views: 502.7ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 15:39:14 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 15:39:14 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.1ms)
+Completed 200 OK in 16ms (Views: 15.6ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 15:39:14 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:39:14 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (23.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (15.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (18.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (67.5ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 964ms (Views: 926.2ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 15:39:15 +0800
+Started GET "/" for ::1 at 2017-11-13 15:39:15 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:39:16 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (17.5ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.8ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (32.0ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 453ms (Views: 436.0ms)
+
+
+Started GET "/dashboard/dashboard_v2" for ::1 at 2017-11-13 15:39:18 +0800
+Processing by DashboardController#dashboard_v2 as HTML
+  Rendering dashboard/dashboard_v2.html.erb within layouts/application
+  Rendered dashboard/dashboard_v2.html.erb within layouts/application (12.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.6ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (26.9ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 360ms (Views: 353.3ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 15:39:19 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 15:39:19 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 12ms (Views: 11.6ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 15:39:19 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:39:19 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (11.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (5.2ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (26.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (52.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 964ms (Views: 917.8ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 15:39:20 +0800
+Started GET "/" for ::1 at 2017-11-13 15:39:20 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:39:20 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (15.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.7ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (25.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 473ms (Views: 445.2ms)
+
+
+Started GET "/dashboard/dashboard_v3" for ::1 at 2017-11-13 15:39:22 +0800
+Processing by DashboardController#dashboard_v3 as HTML
+  Rendering dashboard/dashboard_v3.html.erb within layouts/application
+  Rendered dashboard/dashboard_v3.html.erb within layouts/application (10.1ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (8.7ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (22.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (2.5ms) [cache miss]
+Completed 200 OK in 391ms (Views: 385.6ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 15:39:23 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 15:39:23 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 10ms (Views: 9.6ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 15:39:23 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:39:23 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (8.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (8.2ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (17.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (91.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 973ms (Views: 943.0ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 15:39:24 +0800
+Started GET "/" for ::1 at 2017-11-13 15:39:24 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:39:24 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (11.2ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (42.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 464ms (Views: 443.0ms)
+
+
+Started GET "/dashboard/dashboard_v3" for ::1 at 2017-11-13 15:49:27 +0800
+Processing by DashboardController#dashboard_v3 as HTML
+  Rendering dashboard/dashboard_v3.html.erb within layouts/application
+  Rendered dashboard/dashboard_v3.html.erb within layouts/application (36.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (5.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (9.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (26.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 595ms (Views: 586.0ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 15:49:28 +0800
+Started GET "/" for ::1 at 2017-11-13 15:49:28 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 15:49:29 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.7ms)
+Completed 200 OK in 13ms (Views: 12.7ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:49:29 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (9.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (13.7ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (35.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 912ms (Views: 882.8ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 15:49:30 +0800
+Started GET "/" for ::1 at 2017-11-13 15:49:30 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 15:49:30 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (16.9ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.7ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (20.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (52.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 934ms (Views: 895.7ms)
+
+
+Started GET "/dashboard/dashboard_v3" for ::1 at 2017-11-13 17:23:02 +0800
+Processing by DashboardController#dashboard_v3 as HTML
+  Rendering dashboard/dashboard_v3.html.erb within layouts/application
+  Rendered dashboard/dashboard_v3.html.erb within layouts/application (3106.4ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.7ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (21.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 3735ms (Views: 3514.1ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 17:23:06 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 17:23:07 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 13ms (Views: 12.3ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 17:23:07 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 17:23:07 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (67.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (6.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (9.6ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (35.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (3.4ms) [cache miss]
+Completed 200 OK in 1023ms (Views: 968.5ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 17:23:08 +0800
+Started GET "/" for ::1 at 2017-11-13 17:23:08 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 17:23:08 +0800
+Processing by DashboardController#dashboard_v1 as */*
+Started GET "/widgets" for ::1 at 2017-11-13 17:23:08 +0800
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (15.2ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.7ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (9.8ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (22.9ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.4ms) [cache miss]
+Completed 200 OK in 475ms (Views: 441.7ms)
+
+
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (45.4ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (16.7ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (28.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 394ms (Views: 388.7ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 17:23:09 +0800
+Started GET "/" for ::1 at 2017-11-13 17:23:09 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 17:23:09 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (25.8ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (12.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (45.0ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (2.6ms) [cache miss]
+Completed 200 OK in 720ms (Views: 635.8ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 17:23:10 +0800
+Started GET "/" for ::1 at 2017-11-13 17:23:10 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 17:23:10 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (7.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.1ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (6.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (31.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 502ms (Views: 472.2ms)
+
+
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 17:23:20 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 7ms (Views: 7.2ms)
+
+
+Started GET "/widgets" for ::1 at 2017-11-13 17:24:22 +0800
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (12.4ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (15.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 247ms (Views: 245.2ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 17:24:22 +0800
+Started GET "/" for ::1 at 2017-11-13 17:24:22 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 17:24:22 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (7.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (6.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (21.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 670ms (Views: 642.7ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 17:24:23 +0800
+Started GET "/" for ::1 at 2017-11-13 17:24:23 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 17:24:23 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (9.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (15.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 409ms (Views: 378.1ms)
+
+
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 17:24:33 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 9ms (Views: 8.4ms)
+
+
+Started GET "/dashboard/dashboard_h" for ::1 at 2017-11-13 17:37:54 +0800
+Processing by DashboardController#dashboard_h as HTML
+  Rendering dashboard/dashboard_h.html.erb within layouts/application-h
+  Rendered dashboard/dashboard_h.html.erb within layouts/application-h (53.0ms)
+  Rendered layouts/partials/_topnavbar_h.html.erb (3.8ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (89.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 504ms (Views: 502.7ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 17:37:55 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 17:37:55 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.7ms)
+Completed 200 OK in 9ms (Views: 8.9ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 17:37:55 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 17:37:55 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (8.2ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.7ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (13.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (19.9ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 443ms (Views: 422.7ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 17:37:55 +0800
+Started GET "/" for ::1 at 2017-11-13 17:37:55 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 17:37:55 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (7.2ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.2ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (16.5ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 472ms (Views: 452.1ms)
+
+
+Started GET "/elements/fonticons" for ::1 at 2017-11-13 17:38:14 +0800
+Processing by ElementsController#fonticons as HTML
+  Rendering elements/fonticons.html.erb within layouts/application
+  Rendered elements/fonticons.html.erb within layouts/application (3.5ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (6.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (13.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 279ms (Views: 275.8ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 17:38:14 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 17:38:15 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 9ms (Views: 8.9ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 17:38:15 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 17:38:15 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (7.9ms)
+  Rendered layouts/partials/_topnavbar.html.erb (9.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (9.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (36.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.4ms) [cache miss]
+Completed 200 OK in 699ms (Views: 679.4ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 17:38:16 +0800
+Started GET "/" for ::1 at 2017-11-13 17:38:17 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 17:38:17 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (5.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (11.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 364ms (Views: 343.9ms)
+
+
+Started GET "/elements/fonticons" for ::1 at 2017-11-13 17:39:32 +0800
+Processing by ElementsController#fonticons as HTML
+  Rendering elements/fonticons.html.erb within layouts/application
+  Rendered elements/fonticons.html.erb within layouts/application (4.5ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (10.1ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (24.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 298ms (Views: 295.2ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 17:39:32 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 17:39:33 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 9ms (Views: 8.6ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 17:39:33 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 17:39:33 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (9.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (5.2ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (10.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (27.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 674ms (Views: 651.8ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 17:39:34 +0800
+Started GET "/" for ::1 at 2017-11-13 17:39:35 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 17:39:35 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (4.5ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.1ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (11.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 356ms (Views: 340.4ms)
+
+
+Started GET "/elements/fonticons" for ::1 at 2017-11-13 17:39:36 +0800
+Processing by ElementsController#fonticons as HTML
+  Rendering elements/fonticons.html.erb within layouts/application
+  Rendered elements/fonticons.html.erb within layouts/application (5.1ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (6.1ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (14.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 375ms (Views: 371.7ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 17:39:36 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 17:39:37 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 9ms (Views: 9.1ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 17:39:37 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 17:39:37 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (20.2ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.6ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (53.5ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 680ms (Views: 639.0ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 17:39:38 +0800
+Started GET "/" for ::1 at 2017-11-13 17:39:39 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 17:39:39 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (6.4ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.1ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.6ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (10.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 517ms (Views: 497.7ms)
+
+
+Started GET "/widgets" for ::1 at 2017-11-13 18:28:42 +0800
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (48.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (5.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (9.6ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (25.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 450ms (Views: 443.8ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 18:28:43 +0800
+Started GET "/" for ::1 at 2017-11-13 18:28:43 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 18:28:43 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (14.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (6.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (11.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (24.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.8ms) [cache miss]
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 18:28:44 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 51ms (Views: 50.4ms)
+
+
+Completed 200 OK in 953ms (Views: 921.2ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 18:28:44 +0800
+Started GET "/" for ::1 at 2017-11-13 18:28:44 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 18:28:44 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (6.8ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (10.7ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (20.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 473ms (Views: 458.3ms)
+
+
+Started GET "/widgets" for ::1 at 2017-11-13 18:29:36 +0800
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (23.5ms)
+  Rendered layouts/partials/_topnavbar.html.erb (5.7ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (19.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 290ms (Views: 286.2ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 18:29:37 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 18:29:37 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.7ms)
+Completed 200 OK in 8ms (Views: 7.5ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 18:29:37 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 18:29:37 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (12.2ms)
+  Rendered layouts/partials/_topnavbar.html.erb (5.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (9.8ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (41.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 819ms (Views: 790.9ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 18:29:38 +0800
+Started GET "/" for ::1 at 2017-11-13 18:29:38 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 18:29:38 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (5.4ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (6.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (14.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 398ms (Views: 375.3ms)
+
+
+Started GET "/widgets" for ::1 at 2017-11-13 18:30:10 +0800
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (10.9ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.2ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (14.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 237ms (Views: 235.0ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 18:30:11 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 18:30:11 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 9ms (Views: 9.2ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 18:30:11 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 18:30:11 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (6.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (39.6ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (30.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 833ms (Views: 808.6ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 18:30:12 +0800
+Started GET "/" for ::1 at 2017-11-13 18:30:12 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 18:30:12 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (8.5ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.2ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (6.7ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (11.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 458ms (Views: 431.0ms)
+
+
+Started GET "/documentation" for ::1 at 2017-11-13 18:30:20 +0800
+Processing by DocumentationController#index as HTML
+  Rendering documentation/index.html.erb within layouts/application
+  Rendered documentation/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.7ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (14.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 506ms (Views: 502.8ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 18:30:20 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 18:30:21 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.9ms)
+Completed 200 OK in 14ms (Views: 13.9ms)
+
+
+Started GET "/api/documentation" for ::1 at 2017-11-13 18:30:21 +0800
+Processing by ApiController#documentation as */*
+Started GET "/" for ::1 at 2017-11-13 18:30:21 +0800
+  Rendering app/assets/documentation/readme.md
+  Rendered app/assets/documentation/readme.md (0.5ms)
+Completed 200 OK in 78ms (Views: 77.9ms)
+
+
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 18:30:21 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (24.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (5.1ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (9.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (25.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 708ms (Views: 672.2ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 18:30:21 +0800
+Started GET "/" for ::1 at 2017-11-13 18:30:21 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 18:30:21 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (12.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (9.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (17.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.9ms) [cache miss]
+Completed 200 OK in 490ms (Views: 461.0ms)
+
+
+Started GET "/elements/fonticons" for ::1 at 2017-11-13 18:30:36 +0800
+Processing by ElementsController#fonticons as HTML
+  Rendering elements/fonticons.html.erb within layouts/application
+  Rendered elements/fonticons.html.erb within layouts/application (4.1ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (6.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (23.9ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 269ms (Views: 265.9ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 18:30:37 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 18:30:37 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.6ms)
+Completed 200 OK in 9ms (Views: 8.6ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 18:30:37 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 18:30:37 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (9.4ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (11.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (48.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.7ms) [cache miss]
+Completed 200 OK in 685ms (Views: 665.2ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 18:30:38 +0800
+Started GET "/" for ::1 at 2017-11-13 18:30:39 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 18:30:39 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (8.9ms)
+  Rendered layouts/partials/_topnavbar.html.erb (4.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (8.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (25.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.8ms) [cache miss]
+Completed 200 OK in 498ms (Views: 479.0ms)
+
+
+Started GET "/charts/flot" for ::1 at 2017-11-13 18:40:33 +0800
+Processing by ChartsController#flot as HTML
+  Rendering charts/flot.html.erb within layouts/application
+  Rendered charts/flot.html.erb within layouts/application (0.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (17.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 598ms (Views: 595.5ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0" for ::1 at 2017-11-13 18:40:34 +0800
+Started GET "/api/i18n/site-en.json" for ::1 at 2017-11-13 18:40:34 +0800
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.6ms)
+Completed 200 OK in 10ms (Views: 9.5ms)
+
+
+Started GET "/" for ::1 at 2017-11-13 18:40:34 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 18:40:34 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (14.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (6.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.7ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (35.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (1.9ms) [cache miss]
+Completed 200 OK in 924ms (Views: 895.7ms)
+
+
+Started GET "/fonts/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0" for ::1 at 2017-11-13 18:40:35 +0800
+Started GET "/" for ::1 at 2017-11-13 18:40:35 +0800
+Started GET "/dashboard/dashboard_v1" for ::1 at 2017-11-13 18:40:35 +0800
+Processing by DashboardController#dashboard_v1 as */*
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (6.9ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (15.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 402ms (Views: 386.8ms)
+
+

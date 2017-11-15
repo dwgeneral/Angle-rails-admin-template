@@ -1,0 +1,87 @@
+nav.navbar.topnavbar[role="navigation"]
+  .navbar-header
+    a.navbar-brand[href="#/"]
+
+    .brand-logo
+      |  <img src="
+      = image_path('angle/logo.png')
+      | " alt="App Logo" class="img-responsive" /> 
+    .brand-logo-collapsed
+      |  <img src="
+      = image_path('angle/logo-single.png')
+      | " alt="App Logo" class="img-responsive" /> 
+  .nav-wrapper
+    ul.nav.navbar-nav
+      li
+        a.hidden-xs[href="#" data-trigger-resize="" data-toggle-state="aside-collapsed"]
+          em.fa.fa-navicon
+        a.visible-xs.sidebar-toggle[href="#" data-toggle-state="aside-toggled" data-no-persist="true"]
+          em.fa.fa-navicon
+      li
+        a#user-block-toggle[href="#user-block" data-toggle="collapse"]
+          em.icon-user
+      li
+        a[href="/pages/lock" title="Lock screen"]
+          em.icon-lock
+    ul.nav.navbar-nav.navbar-right
+      li
+        a[href="#" data-search-open=""]
+          em.icon-magnifier
+      li.visible-lg
+        a[href="#" data-toggle-fullscreen=""]
+          em.fa.fa-expand
+      li.dropdown.dropdown-list
+        a[href="#" data-toggle="dropdown"]
+          em.icon-bell
+        .label.label-danger
+          | 11
+        ul.dropdown-menu.animated.flipInX
+          li
+            .list-group
+              a.list-group-item[href="#"]
+
+              .media-box
+                .pull-left
+                  em.fa.fa-twitter.fa-2x.text-info
+                .media-box-body.clearfix
+                  p.m0
+                    | New followers
+                  p.m0.text-muted
+                    small
+                      | 1 new follower
+              a.list-group-item[href="#"]
+
+              .media-box
+                .pull-left
+                  em.fa.fa-envelope.fa-2x.text-warning
+                .media-box-body.clearfix
+                  p.m0
+                    | New e-mails
+                  p.m0.text-muted
+                    small
+                      | You have 10 new emails
+              a.list-group-item[href="#"]
+
+              .media-box
+                .pull-left
+                  em.fa.fa-tasks.fa-2x.text-success
+                .media-box-body.clearfix
+                  p.m0
+                    | Pending Tasks
+                  p.m0.text-muted
+                    small
+                      | 11 pending task
+              a.list-group-item[href="#"]
+                small
+                  | More notifications
+                span.label.label-danger.pull-right
+                  | 14
+      li
+        a[href="#" data-toggle-state="offsidebar-open" data-no-persist="true"]
+          em.icon-notebook
+  form.navbar-form[role="search" action="search.html"]
+    .form-group.has-feedback
+      input.form-control[type="text" placeholder="Type and hit enter ..."]
+      .fa.fa-times.form-control-feedback[data-search-dismiss=""]
+    button.hidden.btn.btn-default[type="submit"]
+      | Submit

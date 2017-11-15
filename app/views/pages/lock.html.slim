@@ -1,0 +1,21 @@
+.abs-center.wd-xl
+  .p
+    |  <img src="
+    = image_path('angle/user/02.jpg')
+    | " alt="Avatar" width="60" height="60" class="img-thumbnail img-circle center-block" /> 
+  .panel.widget.b0
+    .panel-body
+      p.text-center
+        | Please login to unlock your screen.
+      form[role="form"]
+        .form-group.has-feedback
+          input#exampleInputPassword1.form-control[type="password" placeholder="Password"]
+          span.fa.fa-lock.form-control-feedback.text-muted
+        .clearfix
+          .pull-left.mt-sm
+            a.text-muted[href="recover.html"]
+              small
+                | Forgot your password?
+          .pull-right
+            a.btn.btn-sm.btn-primary[href="/dashboard"]
+              | Unlock

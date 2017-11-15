@@ -1,0 +1,86 @@
+h3
+  | Form Wizard
+.panel.panel-default
+  .panel-heading
+    | Basic Form (jquery.validate)
+  .panel-body
+    form#example-form[action="#"]
+      div
+        h4
+          | Account 
+          br
+          small
+            | Nam egestas, leo eu gravida tincidunt
+        fieldset
+          label[for="userName"]
+            | User name *
+          input#userName.form-control.required[name="userName" type="text"]
+          label[for="password"]
+            | Password *
+          input#password.form-control.required[name="password" type="text"]
+          label[for="confirm"]
+            | Confirm Password *
+          input#confirm.form-control.required[name="confirm" type="text"]
+          p
+            | (*) Mandatory
+        h4
+          | Profile 
+          br
+          small
+            | Nam egestas, leo eu gravida tincidunt
+        fieldset
+          label[for="name"]
+            | First name *
+          input#name.form-control.required[name="name" type="text"]
+          label[for="surname"]
+            | Last name *
+          input#surname.form-control.required[name="surname" type="text"]
+          label[for="email"]
+            | Email *
+          input#email.form-control.required.email[name="email" type="text"]
+          label[for="address"]
+            | Address
+          input#address.form-control[name="address" type="text"]
+          p
+            | (*) Mandatory
+        h4
+          | Hints 
+          br
+          small
+            | Nam egestas, leo eu gravida tincidunt
+        fieldset
+          p.lead.text-center
+            | Almost there!
+        h4
+          | Finish 
+          br
+          small
+            | Nam egestas, leo eu gravida tincidunt
+        fieldset
+          p.lead
+            | One last check
+          .checkbox.c-checkbox
+            label
+              input[type="checkbox" required="required" name="terms"]
+              span.fa.fa-check
+              | I agree with the Terms and Conditions.
+.panel.panel-default
+  .panel-heading
+    | Basic Vertical Example
+  .panel-body
+    #example-vertical
+      h4
+        | Keyboard
+      section
+        p
+          | Try the keyboard navigation by clicking arrow left or right!
+      h4
+        | Effects
+      section
+        p
+          | Wonderful transition effects.
+      h4
+        | Pager
+      section
+        p
+          | The next and previous buttons help you to navigate through your content.
